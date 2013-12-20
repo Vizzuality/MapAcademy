@@ -1,0 +1,27 @@
+/*
+
+*/
+/*SegoUI*/
+@font-face {
+  font-family: "Segoe UI";
+  src: url(fonts/segoeui-de84eefd48d035c55b7f07e1d402c03a.eot);
+  src: url(fonts/segoeui.eot) format('eot'), url(fonts/segoeui-024d16ae75db77bcb70f011febff2009.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  src: url(fonts/SEGOEUIB-d1506235ee28283d2b80905b064af563.eot);
+  src: url(fonts/SEGOEUIB.eot) format('eot'), url(fonts/SEGOEUIB-0c428d5d9722fb119aa6c9090d2c4cf8.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI Bold Italic";
+  src: url(fonts/SEGOEUIZ-36476cbe772f2d78a0f5999bd13ba1a7.eot);
+  src: url(fonts/SEGOEUIZ.eot) format('eot'), url(fonts/SEGOEUIZ-5b312af9ddea311fe2f7e3a1cd6d6dde.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
