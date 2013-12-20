@@ -40,7 +40,7 @@ title: Your New Jekyll Site
       <p>
       <span class="where margin20">Upcoming classes</span>
 	    {% for post in site.posts %}
-		    {% if post.future == "true" %}
+		    {% if post.tags contains "future" %}
 		    <p>
 		      <span class="sub margin20">
 		      	<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
@@ -57,8 +57,9 @@ title: Your New Jekyll Site
       <p>
       <span class="where margin20">Previous classes</span>
 	    {% for post in site.posts %}
-		    {% if post.future == "false" %}
-				<!-- pass -->
+		    {% if post.tags contains "future" %}
+		    	<!-- pass -->
+		    {% else %}
 		    <p>
 		      <span class="sub margin20">
 		      	<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>

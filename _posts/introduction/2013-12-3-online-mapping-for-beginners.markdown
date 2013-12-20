@@ -2,7 +2,7 @@
 layout: post
 title:  "Online mapping for beginners"
 date:   2013-12-3
-future: "false"
+tags: "beginners"
 categories: Introduction
 description: In this course we will go from...
 datasets: [{name: 'US Counties', link: http://acdmy.org/d/counties.zip}, {name: 'Tornadoes', link: http://acdmy.org/d/tornadoes.zip}]
