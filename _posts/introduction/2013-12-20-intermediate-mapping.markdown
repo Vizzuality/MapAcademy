@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Intermediate mapping
-date:   2014-01-20
+date:   2013-12-20
 categories: Introduction
 tags: future
 description: In this course we will go from...
