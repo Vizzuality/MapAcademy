@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  Intermediate mapping
 date:   2013-12-20
 ---
