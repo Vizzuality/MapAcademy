@@ -3,7 +3,7 @@ layout: post
 title:  "Intermediate mapping"
 date:   2014-01-20
 categories: Introduction
-tags: [future, other]
+tags: future
 description: In this course we will go from...
 datasets: [{name: 'US Counties', link: http://acdmy.org/d/counties.zip}, {name: 'Tornadoes', link: http://acdmy.org/d/tornadoes.zip}]
 support: "true"
