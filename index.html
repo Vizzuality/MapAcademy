@@ -1,13 +1,74 @@
 ---
-layout: default
+layout: home
 title: Your New Jekyll Site
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	<div class="title">
+	  <h2>The Map Academy</h2>
+	  <span class="sub margin10"><i class="line"></i>FREE ONLINE COURSES ORGANIZED BY <a href="http://cartodb.com">CARTODB</a><i class="line"></i></p>
+	</div>
+    <div class="session">
+      <p class="margin20">
+      	Thousands of people have already joined the Map Academy, the easiest and fastest way for you to start making online maps today. Join today and start learning how to turn your data into beautiful visualizations, generate new insights, and tell data-driven stories like never before.
+      </p>
+    </div>
+
+    <div class="title">
+      <p>
+      <span class="where margin20">Sign-up, it's free</span>
+      <span class="sub margin20">
+		<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
+		<style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
+		<div id="mc_embed_signup">
+		<form action="http://vizzuality.us2.list-manage2.com/subscribe/post?u=177f02bad7857b7358dc1d0fd&amp;id=7ee37359cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<label for="mce-EMAIL">Subscribe to our mailing list</label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;"><input type="text" name="b_177f02bad7857b7358dc1d0fd_7ee37359cf" value=""></div>
+			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		</form>
+		</div>
+      </span>
+    </div>
+
+    <div class="title">
+      <p>
+      <span class="where margin20">Upcoming classes</span>
+	    {% for post in site.posts %}
+	    {% if post.future == true %}
+	    <p>
+	      <span class="sub margin20">
+	      	<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+	      	<p>{{ post.date | date: "%-d %B %Y" }}</p>
+	      	<p>{{ post.description}}</p> 
+	      </span>
+	    </p>
+	    {% endif %}
+	    {% endfor %}
+    </div>
+
+
+    <div class="title">
+      <p>
+      <span class="where margin20">Previous classes</span>
+	    {% for post in site.posts %}
+	    {% if post.future == true %}
+		<!-- pass -->
+	    {% else %}
+	    <p>
+	      <span class="sub margin20">
+	      	<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+	      	<p>{{ post.date | date: "%-d %B %Y" }}</p>
+	      	<p>{{ post.description}}</p> 
+	      </span>
+	    </p>
+	    {% endif %}
+	    {% endfor %}
+    </div>
+
 </div>

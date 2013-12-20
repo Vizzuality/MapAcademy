@@ -1,9 +1,71 @@
 ---
-layout: default
+layout: page
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+    <div class="title">
+      <h2>{{page.title}}</h2>
+      <span class="sub margin10"><i class="line"></i>A FREE ONLINE SESSION ORGANIZED BY <a href="http://cartodb.com">CARTODB</a><i class="line"></i></p>
+    </div>
+    <div class="session">
+      <p class="margin20">
+      	{{ page.content }}
+      </p>
+    </div>
 
-<div class="post">
-{{ content }}
-</div>
+    {% if page.stream %}
+    <div class="title">
+      <p>
+      <span class="where margin20">Streaming Video</span>
+      <span class="sub margin20">
+        <p>
+          <iframe width="640" height="360" src="{{page.stream}}?rel=0" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p>
+          <a href="{{page.stream}}" target="_blank">View it on YouTube by clicking here</a>
+        </p>
+      </span>
+    </div>
+    {% endif %}
+
+    {% if page.datasets %}
+    <div id="data" class="session">
+      <p>
+      <span class="where margin20">Dataset Links</span>
+      <span class="sub margin20">
+	  {% for dataset in page.datasets %}
+        <p>
+          <h5>{{dataset.name}}</h5> <br/>
+          <textarea onclick="this.focus(); this.select()">{{dataset.link}}</textarea>
+        </p>
+	  {% endfor %}
+
+      </span>
+    </div>
+    {% endif %}
+
+    {% if page.support == 'true' %}
+    <div class="session">
+      <p>
+      <span class="where margin20">Online Support</span>
+      <span class="sub margin20">
+        <p>
+          There are three ways to get live help during the streaming event. The first is to use IRC. If you haven't used IRC before you can <a href="http://webchat.freenode.net/?channels=%23mapacademy" target="_blank">head over to WebChat</a> and use it by simply creating a nickname. Second, you can use the <a href="" target="_blank">comment section of the YouTube video</a>. Finally, you are welcome to just <a href="https://twitter.com/cartodb" target="_blank">Tweet us @CartoDB</a>.
+        </p>
+      </span>
+    </div>
+    {% endif %}
+
+    {% if page.material %} 
+
+    <div class="session">
+      <p>
+      <span class="where margin20">Other material</span>
+      <span class="sub margin20">
+        <p>
+        	{% if page.material == 'beginner' %}
+        		{% include posts/_material-beginner.html %}
+        	{% endif %}
+        </p>
+      </span>
+    </div>
+
+    {% endif %}
