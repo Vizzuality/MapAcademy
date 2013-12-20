@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intermediate mapping"
+title:  Intermediate mapping
 date:   2014-01-20
 categories: Introduction
 tags: future

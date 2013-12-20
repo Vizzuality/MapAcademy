@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Online mapping for beginners"
+title:  Online mapping for beginners
 date:   2013-12-3
 tags: none
 categories: Introduction
