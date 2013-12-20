@@ -2,5 +2,5 @@ name:            Map Academy
 title:            Map Academy
 tagline:          Learn to make maps online
 description:      Everything you needed to know about online mapping in a free and easy to follow online course.
-permalink:      /classes/:title
+permalink:      classes/:title
 url:   http://vizzuality.github.io/MapAcademy/
