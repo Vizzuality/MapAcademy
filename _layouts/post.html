@@ -7,7 +7,7 @@ layout: page
     </div>
     <div class="session">
       <p class="margin20">
-      	{{ page.content }}
+        {{ page.content }}
       </p>
     </div>
 
@@ -30,27 +30,22 @@ layout: page
     <div id="data" class="session">
       <p>
       <span class="where margin20">Dataset Links</span>
-      <span class="sub margin20">
-	  {% for dataset in page.datasets %}
-        <p>
+      <div class="sub margin20 datasets">
+      {% for dataset in page.datasets %}
+        <div>
           <h5>{{dataset.name}}</h5> <br/>
           <textarea onclick="this.focus(); this.select()">{{dataset.link}}</textarea>
-        </p>
-	  {% endfor %}
+        </div>
+      {% endfor %}
 
-      </span>
+      </div>
     </div>
     {% endif %}
 
     {% if page.support == "true" %}
     <div class="session">
-      <p>
       <span class="where margin20">Online Support</span>
-      <span class="sub margin20">
-        <p>
-          There are three ways to get live help during the streaming event. The first is to use IRC. If you haven't used IRC before you can <a href="http://webchat.freenode.net/?channels=%23mapacademy" target="_blank">head over to WebChat</a> and use it by simply creating a nickname. Second, you can use the <a href="" target="_blank">comment section of the YouTube video</a>. Finally, you are welcome to just <a href="https://twitter.com/cartodb" target="_blank">Tweet us @CartoDB</a>.
-        </p>
-      </span>
+      <p class="margin20">There are three ways to get live help during the streaming event. The first is to use IRC. If you haven't used IRC before you can <a href="http://webchat.freenode.net/?channels=%23cartodb" target="_blank">head over to WebChat</a> and use it by simply creating a nickname. Second, you can use the <a href="{{page.stream}}" target="_blank">comment section of the YouTube video</a>. Finally, you are welcome to just <a href="https://twitter.com/cartodb" target="_blank">Tweet us @CartoDB</a> or follow the hashtag <a href="https://twitter.com/search?q=mapcademy&src=typd&f=realtime" target="_blank">#mapcademy</a>.</p>
     </div>
     {% endif %}
 
@@ -61,9 +56,9 @@ layout: page
       <span class="where margin20">Other material</span>
       <span class="sub margin20">
         <p>
-        	{% if page.material == 'beginner' %}
-        		{% include posts/_material-beginner.html %}
-        	{% endif %}
+          {% if page.material == 'beginner' %}
+            {% include posts/_material-beginner.html %}
+          {% endif %}
         </p>
       </span>
     </div>

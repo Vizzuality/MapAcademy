@@ -6247,12 +6247,38 @@ body.academy section span.where {
   font: normal 21px "Segoe UI", Arial;
   color: #FF5B26;
 }
+
+body.academy section .datasets > div {
+  display: inline-block;
+  width: 280px;
+}
+body.academy section span.dataset {
+  font:normal 21px "Segoe UI", Arial;
+  color:#000;
+}
+body.academy section textarea {
+  width: 240px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  height: 20px;
+  font-size: 13px;
+  color: #333;
+  resize: none;
+}
+
+body.academy section textarea:focus {
+  border: 1px solid #ccc;
+}
+
 /* line 53, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
 body.academy section p {
   font-weight: normal;
   color: #777777;
   font: 300 17px "Helvetica", Arial;
   line-height: 20px;
+  letter-spacing: 0;
 }
 /* line 58, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
 body.academy section p strong {
