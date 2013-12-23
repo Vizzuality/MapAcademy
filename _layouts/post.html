@@ -42,6 +42,24 @@ layout: page
     </div>
     {% endif %}
 
+    {% if page.chapters %}
+    <div class="session">
+      <p>
+      <span class="where margin20">Video chapters</span>
+      <div class="sub margin20">
+      {% for chapter in page.chapters %}
+        <div>
+          <h5>{{chapter.name}}</h5> <br/>
+          <p>
+            <iframe src="{{chapter.url}}?title=0&amp;byline=0&amp;portrait=0" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+          </p><br/>
+        </div>
+      {% endfor %}
+
+      </div>
+    </div>
+    {% endif %}
+
     {% if page.support == "true" %}
     <div class="session">
       <span class="where margin20">Online Support</span>

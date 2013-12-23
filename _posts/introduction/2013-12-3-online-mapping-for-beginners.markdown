@@ -11,6 +11,22 @@ datasets:
   -
     name: 'Tornadoes'
     link: 'http://acdmy.org/d/tornadoes.zip'
+chapters:
+  -
+    name: 'Chapter 1'
+    url: '//player.vimeo.com/video/81019067'
+  -
+    name: 'Chapter 2'
+    url: '//player.vimeo.com/video/81042811'
+  -
+    name: 'Chapter 3'
+    url: '//player.vimeo.com/video/81054975'
+  -
+    name: 'Chapter 4'
+    url: '//player.vimeo.com/video/81056720'
+  -
+    name: 'Chapter 5'
+    url: '//player.vimeo.com/video/81059818'
 support: "false"
 material: beginner
 stream: http://www.youtube.com/embed/5HH1qaBAQRA
