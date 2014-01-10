@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Intermediate mapping
-categories: Introduction
+title: Adding style to your maps
 tags: future
-description: In this course we will go from...
+categories: Introduction
+description: This course will be a deep dive into adding style to your maps using CartoCSS
 datasets:
   -
     name: 'US Counties'
@@ -12,8 +12,20 @@ datasets:
     name: 'Tornadoes'
     link: 'http://acdmy.org/d/tornadoes.zip'
 support: "true"
+material: beginner
 ---
 
-Thank you for joining us at our first ever Mapping for Beginners class. This is the first of a multi-part series. You can stay up-to-date with events by following our <a href="http://blog.cartodb.com/" target="_blank">blog</a>, following us on <a href="https://twitter.com/cartodb" target="_blank">Twitter</a>, or watching our <a href="/" target="_blank">Academy homepage</a>. Below you can find all the links and information you need. 
+<div>
+	<p>This class is the second class in our Map Academy series. During this 1.5 hour course, you will learn how to style your online maps using the CartoCSS styling language. We will cover some basic skills for designing your maps, including </p><br/>
+</div>
+<div>
+	<h5>Basic CartoCSS language</h5><br/>
+	<h5>Styling based on data properties</h5><br/>
+	<h5>Zoom dependant styling</h5><br/>
+	<h5>Basic Torque styling</h5><br/>
+</div>
+<div>
+	<p>All students will be expected to have completed <a href="online-mapping-for-beginners/">Online Mapping for Beginners</a> prior to taking part in this course. Expect to begin right where <b>Online Mapping for Beginners</b> left of and so you should have the two required datasets imported and ready to map on your account.</p>
+</div>
 
           

@@ -5,11 +5,41 @@ layout: page
       <h2>{{page.title}}</h2>
       <span class="sub margin10"><i class="line"></i>A FREE ONLINE SESSION ORGANIZED BY <a href="http://cartodb.com">CARTODB</a><i class="line"></i></p>
     </div>
+
     <div class="session">
       <p class="margin20">
         {{ page.content }}
       </p>
     </div>
+
+    {% if page.tags contains "future" %}
+    <div class="title">
+      <p>
+      <span class="where margin20">Sign-up, it's free</span>
+      <span class="sub margin20">
+      <p>
+        Get important class links and announcements for this and future Map Academy classes
+      </p>
+      <br/>
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+    <form action="http://vizzuality.us2.list-manage2.com/subscribe/post?u=177f02bad7857b7358dc1d0fd&amp;id=7ee37359cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <label for="mce-EMAIL">Sign-up here</label>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_177f02bad7857b7358dc1d0fd_7ee37359cf" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </form>
+    </div>
+      </span>
+    </div>
+    {% endif %}
+
 
     {% if page.stream %}
     <div class="title">
