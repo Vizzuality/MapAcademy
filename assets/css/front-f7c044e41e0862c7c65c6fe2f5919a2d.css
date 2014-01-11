@@ -3830,7 +3830,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* icons */
 /* line 370, central_icons/*.png */
 .central_icons-sprite, .central_icons-academics, .central_icons-agencies, .central_icons-availability, .central_icons-back, .central_icons-bullet-small, .central_icons-bullet-small_selected, .central_icons-bullet, .central_icons-bullet_selected, .central_icons-cards, .central_icons-cartodb, .central_icons-cartodb_opacity, .central_icons-checkbox, .central_icons-chosen-sprite, .central_icons-double_grey_right_arrows, .central_icons-download_blue, .central_icons-download_logo, .central_icons-error, .central_icons-feature_and, .central_icons-foryou, .central_icons-gallery, .central_icons-journalism, .central_icons-left_corner, .central_icons-logo2, .central_icons-mapviews, .central_icons-mobility, .central_icons-ngos, .central_icons-options, .central_icons-play_blue, .central_icons-raster, .central_icons-realtime, .central_icons-ribbon, .central_icons-ribbon_large, .central_icons-right_corner, .central_icons-security, .central_icons-specific, .central_icons-thunder, .central_icons-tick_grey, .central_icons-tick_ok, .central_icons-tooltip_tip, .central_icons-tooltip_tip_up, .central_icons-unlimited, .central_icons-upgrade_checkbox, a.double_arrow, h3.double_arrow, section a.back, section a.back:hover, section a.previous, section a.previous:hover, section a.next, section a.next:hover, ul.features li, section.sessions form a.checkbox, section.sessions form a.checkbox:hover, section.sessions form a.checkbox.error, section.sessions form a.checkbox.checked, section.sessions form a.checkbox.checked:hover, section.sessions form div.error a.error {
-  background: url(central_icons-sf849306541-c86d3b3698570192b2afae235d54337b.png) no-repeat;
+  background: url(http://cartodb.com/assets/central_icons-sf849306541-c86d3b3698570192b2afae235d54337b.png) no-repeat;
 }
 
 /* line 60, ../../../../../../shared/bundle/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -6203,7 +6203,7 @@ body.academy section div.content {
 /* line 23, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
 body.academy section div.session {
   width: 627px;
-  margin: 50px auto 0;
+  margin: 40px auto 0;
 }
 /* line 28, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
 body.academy section div.social {
@@ -6273,13 +6273,37 @@ body.academy section textarea:focus {
 }
 
 /* line 53, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
-body.academy section p {
+body.academy section p,
+body.academy section ul {
   font-weight: normal;
   color: #777777;
   font: 300 17px "Helvetica", Arial;
   line-height: 20px;
   letter-spacing: 0;
 }
+
+body.academy section p.date {
+  font-weight: normal;
+  color: #999;
+  font: 300 15px "Helvetica", Arial;
+  line-height: 20px;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+
+body.academy section ul {
+  width: 260px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+body.academy section li {
+  background: url('http://developers.cartodb.com/images/central_icons/list_grey.jpg') no-repeat 0 7px;
+  margin: 10px 0 0 0;
+  padding: 0 0 0 10px;
+  display: list-item;
+}
+
 /* line 58, ../../../../app/assets/stylesheets/front/home/academy.css.scss */
 body.academy section p strong {
   font-weight: bold;
@@ -20696,4 +20720,22 @@ body.faq .nav div.left {
   width: 561px;
   background: none;
   padding: 0;
+}
+
+input[type="email"] {
+  width: 280px;
+  height: auto;
+  padding: 13px 15px 14px;
+  margin: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: none;
+  border: 1px solid #cccccc;
+  font: normal 15px "Helvetica Neue", "Helvetica", Arial;
+  color: #333333;
+  z-index: 10;
+  line-height: normal;
 }

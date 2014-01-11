@@ -27,7 +27,7 @@ date: 05-02-2014
 		<li>Basic Torque styling</li>
 	</ul>
 </div>
-<div>
+<div class="margin20">
 	<p>All students will be expected to have completed <a href="online-mapping-for-beginners/">Online Mapping for Beginners</a> prior to taking part in this course. Expect to begin right where <b>Online Mapping for Beginners</b> left of and so you should have the two required datasets imported and ready to map on your account.</p>
 </div>
 
