@@ -4,13 +4,6 @@ title: Adding style to your maps
 tags: future
 categories: Introduction
 description: This course will be a deep dive into adding style to your maps using CartoCSS
-datasets:
-  -
-    name: 'US Counties'
-    link: 'http://acdmy.org/d/counties.zip'
-  -
-    name: 'Tornadoes'
-    link: 'http://acdmy.org/d/tornadoes.zip'
 support: "true"
 material: beginner
 date: 05-02-2014
@@ -28,7 +21,7 @@ date: 05-02-2014
 	</ul>
 </div>
 <div class="margin20">
-	<p>All students will be expected to have completed <a href="online-mapping-for-beginners/">Online Mapping for Beginners</a> prior to taking part in this course. Expect to begin right where <b>Online Mapping for Beginners</b> left of and so you should have the two required datasets imported and ready to map on your account.</p>
+	<p>All students will be expected to have completed <a href="online-mapping-for-beginners/">Online Mapping for Beginners</a> prior to taking part in this course. Expect to begin right where <b>Online Mapping for Beginners</b> left off. You should have the two required datasets in your account and ready to map!</p>
 </div>
 
           
