@@ -10,7 +10,7 @@ date: 05-02-2014
 ---
 
 <div>
-	<p>This class is the second class in our Map Academy series. It will be 1.5 hours and starts at 10am SF, 1pm NYC, and 6pm London. During the class, you will learn how to style your online maps using the CartoCSS styling language. We will cover some basic skills for designing your maps, including </p><br/>
+	<p>This class is the second class in our Map Academy series. It will be 1.5 hours and starts at <strong>10am SF, 1pm NYC, and 6pm London</strong>. During the class, you will learn how to style your online maps using the CartoCSS styling language. We will cover some basic skills for designing your maps, including </p><br/>
 </div>
 <div class="skills">
 	<ul>
