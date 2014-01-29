@@ -6,7 +6,7 @@ categories: Introduction
 description: This course will be a deep dive into adding style to your maps using CartoCSS
 support: "true"
 material: beginner
-date: 05-02-2014
+date: 19-02-2014
 ---
 
 <div>
