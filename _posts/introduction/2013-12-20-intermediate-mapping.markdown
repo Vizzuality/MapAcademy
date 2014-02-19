@@ -7,6 +7,7 @@ description: This course will be a deep dive into adding style to your maps usin
 support: "true"
 material: beginner
 date: 19-02-2014
+published: false
 ---
 
 <div>
